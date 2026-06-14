@@ -5,7 +5,7 @@ from typing import List
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 from pydantic import BaseModel
 from pypdf import PdfReader
